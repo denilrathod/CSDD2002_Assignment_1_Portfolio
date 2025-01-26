@@ -1,0 +1,12 @@
+.greeting  h1 {
+    font-size: 36px;
+    color: #0078a0;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .greeting h1:hover {
+    transform: scale(1.1);
+    /* Increase the size on hover */
+  }

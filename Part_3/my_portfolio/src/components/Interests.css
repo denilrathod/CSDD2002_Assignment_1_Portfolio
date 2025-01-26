@@ -1,0 +1,31 @@
+/* Interests Section */
+.interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .interests h2 {
+    color: #0078a0;
+    margin-bottom: 20px;
+  }
+  
+  .interest-item {
+    background-color: #91c5d6;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    width: 200px;
+  }
+  
+  .interest-item:hover {
+    transform: scale(1.05);
+  }
+  

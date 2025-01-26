@@ -1,0 +1,28 @@
+/* Languages Section */
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .languages h2 {
+    color: #1c2f40;
+    margin-bottom: 20px;
+  }
+  
+  .language-item {
+    background-color: #0078a0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    width: 200px;
+  }
+  
+  .language-item:hover {
+    transform: scale(1.05);
+  }
+  

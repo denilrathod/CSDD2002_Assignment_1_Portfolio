@@ -1,0 +1,195 @@
+/* Reset margin and padding for the body and html */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* Ensure full-width layout */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Remove padding for the body */
+    line-height: 1.6;
+    background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    /* Makes sure the background covers the entire screen */
+    background-position: center center;
+    /* Centers the image */
+    background-attachment: fixed;
+    /* Keeps the image fixed in place when scrolling */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; /* Ensure no gap above the navbar */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 60px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Greeting Section */
+.greeting h1 {
+    font-size: 36px;
+    color: #0078a0;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.greeting h1:hover {
+    transform: scale(1.1);
+    /* Increase the size on hover */
+}
+
+/* Section Box Styles */
+.section-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Clear Background Gap Between Sections */
+.gap {
+    height: 20px;
+}
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.description {
+    width: 100%;
+}
+
+.description h2 {
+    margin-bottom: 15px;
+}
+
+.description p {
+    margin: 0;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #90cdf4;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+/* Interests Section */
+.interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.interests h2 {
+    color: #0078a0;
+    margin-bottom: 20px;
+}
+
+.interest-item {
+    background-color: #91c5d6;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+.interest-item:hover {
+    transform: scale(1.05);
+}
+
+/* Languages Section */
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.languages h2 {
+    color: #1c2f40;
+    margin-bottom: 20px;
+}
+
+.language-item {
+    background-color: #0078a0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+.language-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}

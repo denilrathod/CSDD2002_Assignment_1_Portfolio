@@ -50,13 +50,6 @@ In this part, I migrated the Flexbox and Grid layout-based portfolio to React. I
 - Utilized `import` statements to bring in external CSS files.
 - Managed styling in separate CSS files for better organization.
 
-### Screenshots:
-- [Screenshot 1: React Component Structure](./path/to/screenshot1.png)
-- [Screenshot 2: Final Portfolio in React](./path/to/screenshot2.png)
-
-### Code:
-- [Part 3 Code](./path/to/part3_code)
-
 
 ---
 

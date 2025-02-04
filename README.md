@@ -3,11 +3,11 @@
 This project demonstrates my ability to work with **Flexbox** and **Grid** layout methods, showcasing various properties in a portfolio website format. The project was completed in three parts: implementing layout methods, building the website using Flexbox and Grid, and migrating it to React.
 
 ## Table of Contents
-- [Part 1: Flexbox & Grid Layout Mastery](#part-1-flexbox-grid-layout-mastery)
-- [Part 2: Building Personal Portfolio Website](#part-2-building-personal-portfolio-website)
-- [Part 3: Migrating to React](#part-3-migrating-to-react)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
+- Part 1: Flexbox & Grid Layout Mastery
+- Part 2: Building Personal Portfolio Website
+- Part 3: Migrating to React
+- Screenshots
+- Installation
 
 ## Part 1: Flexbox & Grid Layout Mastery
 In this part, I demonstrated my understanding and application of Flexbox and Grid layout methods by using various properties in the styling of the components. Below are the key properties I implemented:
